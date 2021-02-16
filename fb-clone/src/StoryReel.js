@@ -29,6 +29,11 @@ const StoryReel = () => {
 				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/cp0/p60x60/138808784_10223040352410378_18593436626422993_n.jpg?_nc_cat=100&ccb=3&_nc_sid=7206a8&_nc_ohc=VA9wszD8BCwAX_Kpblp&_nc_ht=scontent-iad3-1.xx&tp=27&oh=88df7a49900ebb8b451d1d134e62c17d&oe=6050C6B0"
 				title="Ruth Hailu"
 			/>
+			<Story
+				image="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/150814055_3966686400029346_8008003506431904295_o.jpg?_nc_cat=105&ccb=3&_nc_sid=5b7eaf&_nc_ohc=s9moWQ4BmqYAX8GeHjU&_nc_ht=scontent-iad3-1.xx&oh=03b15246a6a6e1de22cadf0d9dd8ea95&oe=604FA210"
+				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/cp0/p40x40/138984595_3878651408832846_8211803308144917676_o.jpg?_nc_cat=104&ccb=3&_nc_sid=7206a8&_nc_ohc=QHBRhYy8zsAAX8Fcsd6&_nc_ht=scontent-iad3-1.xx&tp=27&oh=5fadc798a75b4774f9b7f2f624e207b3&oe=604F15E2"
+				title="Mebratu Embaye"
+			/>
 		</div>
 	);
 };
