@@ -14,11 +14,11 @@ const StoryReel = () => {
 				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/cp0/c0.0.60.60a/p60x60/71877290_2286277414828957_8276971573659828224_n.jpg?_nc_cat=109&ccb=3&_nc_sid=7206a8&_nc_ohc=-p2iz66uxyUAX-Ngz-z&_nc_ht=scontent-iad3-1.xx&tp=27&oh=3ffb227c43e7181daa4345ad521d7542&oe=604F366C"
 				title="Delina Mulugeta"
 			/>
-			<Story
+			{/* <Story
 				image="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/150127326_10224669424953495_6405125469849476979_o.jpg?_nc_cat=111&ccb=3&_nc_sid=5b7eaf&_nc_ohc=z0LCHq6eFroAX8_G_4h&_nc_ht=scontent-iad3-1.xx&oh=67e5dc457aa8a719dc4c8e9cf7f3c261&oe=604F8DA0"
 				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/cp0/p60x60/139980757_10224427742791592_2120932580724799158_o.jpg?_nc_cat=108&ccb=3&_nc_sid=7206a8&_nc_ohc=aLk_krGeioAAX_Gdbk-&_nc_ht=scontent-iad3-1.xx&tp=27&oh=5b90b11e330afb578e29a0859d9753d0&oe=604FF464"
 				title="Danny Jevo"
-			/>
+			/> */}
 			<Story
 				image="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/150679471_3444354689006976_6090862795966357407_o.jpg?_nc_cat=105&ccb=3&_nc_sid=5b7eaf&_nc_ohc=_xZzE6lYcwoAX_eASIH&_nc_ht=scontent-iad3-1.xx&oh=36926e8bfc05e0378d74f1ae195c0af4&oe=6050F0A5"
 				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/cp0/p60x60/148121431_3427962403979538_3559852929017715213_o.jpg?_nc_cat=110&ccb=3&_nc_sid=7206a8&_nc_ohc=oIlGNRdHzYsAX8sl79-&_nc_ht=scontent-iad3-1.xx&tp=27&oh=f14ab2e196794941792674c55fc48b64&oe=604E5C85"
