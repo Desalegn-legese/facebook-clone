@@ -1,0 +1,3 @@
+.widgets > iframe::-webkit-scrollbar {
+	width: 0px;
+}
