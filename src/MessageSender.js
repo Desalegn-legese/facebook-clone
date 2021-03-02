@@ -4,24 +4,37 @@ import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary";
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon";
 import React, { useState } from "react";
 import "./MessageSender.css";
+import { useStateValue } from "./StateProvider";
+import db from "./firebase";
+import firebase from "firebase";
 const MessageSender = () => {
+	const [{ user }, dispatch] = useStateValue();
 	const [input, setInput] = useState("");
 	const [imageUrl, setImageUrl] = useState("");
 	const handleSubmit = (e) => {
-        e.preventDefault();
-        setImageUrl('');
+		e.preventDefault();
+		db.collection("posts").add({
+			message: input,
+			timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+			profilePic: user.photoURL,
+			username: user.displayName,
+			image: imageUrl,
+		});
+		setImageUrl("");
+		setInput("");
 	};
+	// console.log(user.photoURL);
 	return (
 		<div className="messageSender">
 			<div className="messageSender__top">
-				<Avatar src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/p320x320/64391745_2699036366790593_364101231133589504_o.jpg?_nc_cat=105&ccb=3&_nc_sid=7206a8&_nc_ohc=Ae1M9SnA34oAX-gUMWk&_nc_ht=scontent-iad3-1.xx&tp=6&oh=372ee11ed1027e6f480bcf0383345551&oe=604E411D" />
+				<Avatar src={user.photoURL} />
 				<form action="">
 					<input
 						value={input}
 						onChange={(e) => setInput(e.target.value)}
 						className="messageSender__input"
 						type="text"
-						placeholder={`What' s on your mind?`}
+						placeholder={`What' s on your mind, ${user.displayName}`}
 					/>
 					<input
 						value={imageUrl}
