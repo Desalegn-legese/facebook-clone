@@ -5,14 +5,14 @@ const StoryReel = () => {
 	return (
 		<div className="storyReel">
 			<Story
-				image="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-0/s552x414/150131883_10158765075085102_3157473941412015095_o.jpg?_nc_cat=111&ccb=3&_nc_sid=365331&_nc_ohc=hZguHoyLAQQAX-iJUq-&_nc_ht=scontent-iad3-1.xx&tp=7&oh=f8c581dd8db9c9c985e0cefe38177d9f&oe=6050375E"
-				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/cp0/p60x60/150600475_10158765074020102_7305081252659070446_o.jpg?_nc_cat=106&ccb=3&_nc_sid=7206a8&_nc_ohc=c8_hYKfPyFsAX92eFzB&_nc_ht=scontent-iad3-1.xx&tp=27&oh=bc9008378ac360f0e6af99a11de6252d&oe=604E6811"
-				title="Samuel Mesfin"
+				image="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/162914668_2268619893271505_2311297296040964219_o.jpg?_nc_cat=111&ccb=1-3&_nc_sid=5b7eaf&_nc_ohc=1r8M4ye_5s4AX_nTbKK&_nc_ht=scontent-iad3-1.xx&oh=4087e595463ae5e6df02c7a015ac8d1d&oe=607D1BEF"
+				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/cp0/p40x40/130747254_2177398835726945_2919482526860328127_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=7206a8&_nc_ohc=jDKz6Klp6ygAX-PGcnG&_nc_ht=scontent-iad3-1.xx&tp=27&oh=fd6eddfb733c54ca5af3b8984bc26885&oe=607BE683"
+				title="Nani Nani"
 			/>
 			<Story
-				image="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/150723346_2731964950467159_364065631701838152_o.jpg?_nc_cat=105&ccb=3&_nc_sid=5b7eaf&_nc_ohc=VFTMpgv3A8YAX8-Q9C1&_nc_ht=scontent-iad3-1.xx&oh=599020c7fdb420ad776b369b0bcfd3d5&oe=604F5D86"
-				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/cp0/c0.0.60.60a/p60x60/71877290_2286277414828957_8276971573659828224_n.jpg?_nc_cat=109&ccb=3&_nc_sid=7206a8&_nc_ohc=-p2iz66uxyUAX-Ngz-z&_nc_ht=scontent-iad3-1.xx&tp=27&oh=3ffb227c43e7181daa4345ad521d7542&oe=604F366C"
-				title="Delina Mulugeta"
+				image="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/163516152_4356407521043130_7204714857636581428_o.jpg?_nc_cat=106&ccb=1-3&_nc_sid=5b7eaf&_nc_ohc=qEPm5vYX6iUAX-JvXOK&_nc_ht=scontent-iad3-1.xx&oh=4808396d232d0e2f1127ee972556567b&oe=607BCAA8"
+				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/cp0/p40x40/152907999_4272642262752990_4351196801180444882_o.jpg?_nc_cat=107&ccb=1-3&_nc_sid=7206a8&_nc_ohc=ib_IlVdCDpAAX_Sm841&_nc_ht=scontent-iad3-1.xx&tp=27&oh=602697a75731c18dcea3475fc6246ed7&oe=607D4CF1"
+				title="Habte Tesfaye"
 			/>
 			{/* <Story
 				image="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/150127326_10224669424953495_6405125469849476979_o.jpg?_nc_cat=111&ccb=3&_nc_sid=5b7eaf&_nc_ohc=z0LCHq6eFroAX8_G_4h&_nc_ht=scontent-iad3-1.xx&oh=67e5dc457aa8a719dc4c8e9cf7f3c261&oe=604F8DA0"
@@ -20,19 +20,19 @@ const StoryReel = () => {
 				title="Danny Jevo"
 			/> */}
 			<Story
-				image="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/150679471_3444354689006976_6090862795966357407_o.jpg?_nc_cat=105&ccb=3&_nc_sid=5b7eaf&_nc_ohc=_xZzE6lYcwoAX_eASIH&_nc_ht=scontent-iad3-1.xx&oh=36926e8bfc05e0378d74f1ae195c0af4&oe=6050F0A5"
-				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/cp0/p60x60/148121431_3427962403979538_3559852929017715213_o.jpg?_nc_cat=110&ccb=3&_nc_sid=7206a8&_nc_ohc=oIlGNRdHzYsAX8sl79-&_nc_ht=scontent-iad3-1.xx&tp=27&oh=f14ab2e196794941792674c55fc48b64&oe=604E5C85"
-				title="Brown Sel"
+				image="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/162727361_4319200578108234_6070736924907711936_o.jpg?_nc_cat=105&ccb=1-3&_nc_sid=5b7eaf&_nc_ohc=bNEwvtiI8ooAX9wx5sc&_nc_ht=scontent-iad3-1.xx&oh=719b8345f66688e9ceda7524b0495474&oe=607D7B16"
+				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/cp0/p40x40/101807742_3451414691553498_9024757050982268928_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=7206a8&_nc_ohc=SUz9DvsCR_IAX9eE_re&_nc_ht=scontent-iad3-1.xx&tp=27&oh=de6c893241654135e65789b32f2e5c84&oe=607C0121"
+				title="Sara Solomon"
 			/>
 			<Story
-				image="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/150190784_10223339331044657_7848813730198468080_o.jpg?_nc_cat=100&ccb=3&_nc_sid=5b7eaf&_nc_ohc=cuhLFe7fKoAAX8icqvP&_nc_ht=scontent-iad3-1.xx&oh=c84f8f77a6433ec6178c40eff1d7615b&oe=6051FA6F"
-				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/cp0/p60x60/138808784_10223040352410378_18593436626422993_n.jpg?_nc_cat=100&ccb=3&_nc_sid=7206a8&_nc_ohc=VA9wszD8BCwAX_Kpblp&_nc_ht=scontent-iad3-1.xx&tp=27&oh=88df7a49900ebb8b451d1d134e62c17d&oe=6050C6B0"
-				title="Ruth Hailu"
+				image="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/162987468_4328608717152747_7924604353545317872_o.jpg?_nc_cat=107&ccb=1-3&_nc_sid=5b7eaf&_nc_ohc=QxXO-9mNzxAAX8lQN58&_nc_ht=scontent-iad3-1.xx&oh=2fd72b06859d050853e8f6405bc07833&oe=607A3CD4"
+				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-1/cp0/p40x40/13418517_1328412997172349_940771009503465984_o.jpg?_nc_cat=101&ccb=1-3&_nc_sid=7206a8&_nc_ohc=UUfgJIHzgT8AX-AxGrv&_nc_ht=scontent-iad3-1.xx&tp=27&oh=9cfb196f2ed281e30bde58f6e3c6b736&oe=607DA917"
+				title="Meron Lemma"
 			/>
 			<Story
-				image="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/150814055_3966686400029346_8008003506431904295_o.jpg?_nc_cat=105&ccb=3&_nc_sid=5b7eaf&_nc_ohc=s9moWQ4BmqYAX8GeHjU&_nc_ht=scontent-iad3-1.xx&oh=03b15246a6a6e1de22cadf0d9dd8ea95&oe=604FA210"
-				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/cp0/p40x40/138984595_3878651408832846_8211803308144917676_o.jpg?_nc_cat=104&ccb=3&_nc_sid=7206a8&_nc_ohc=QHBRhYy8zsAAX8Fcsd6&_nc_ht=scontent-iad3-1.xx&tp=27&oh=5fadc798a75b4774f9b7f2f624e207b3&oe=604F15E2"
-				title="Mebratu Embaye"
+				image="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/s1080x2048/163178876_10158262470732371_6474738728453008941_o.jpg?_nc_cat=1&ccb=1-3&_nc_sid=5b7eaf&_nc_ohc=wK_o5CPf88UAX_kO7q5&_nc_ht=scontent-iad3-1.xx&tp=7&oh=ec918c3646c166077b9be34a8e8ff8eb&oe=607ADBD1"
+				profileSrc="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-1/cp0/p40x40/97453481_10157464396582371_2461148751759147008_n.png?_nc_cat=105&ccb=1-3&_nc_sid=1eb0c7&_nc_ohc=Cx0SXLRjZRIAX__pfnX&_nc_ht=scontent-iad3-1.xx&_nc_tp=30&oh=917270243fb3a48e593e626b4966cafd&oe=607B98E2"
+				title="Power of Positivity"
 			/>
 		</div>
 	);
